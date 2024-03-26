@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty store</title>
+  <!-- link online -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- link offline -->
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./font_icon/css_icon/all.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Roboto:wght@100;300;400;500&display=swap">
+  <title>Sản phẩm mới</title>
+</head>
+
+<body class="body">
+  <article class="main">
+    <!-- phan dau trang -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="img/chung/logo1.png" alt=""
+              class="header__logo-img"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <a class="nav-link" href="./index.html">Trang Chủ</a>
+            <a class="nav-link" href="./newproduct.html">Sản Phẩm Mới</a>
+            <a class="nav-link" href="./login.html">Đăng Nhập</a>
+            <a class="nav-link" href="./sign.html">Đăng Ký</a>
+          </div>
+        </div>
+        <div class="container-fluid tk">
+          <form class="d-flex header__search" role="search">
+            <input class="form-control me-2 ax" type="search" placeholder="Nhập vào để tìm kiếm sản phẩm"
+              aria-label="Search">
+            <div class="header__search-btn">
+              <button class="btn header__search-btn" type="submit">
+                <a href="#" class="">
+                  <i class="fa-sharp fa-solid fa-magnifying-glass icon_search"></i>
+                </a>
+              </button>
+            </div>
+            <a class="ghang"> <i class="fa-solid fa-cart-shopping header__card-icon"></i></a>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="slider">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/banner/banner16.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner/banner17.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner/banner19.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content -->
+        <h1> Sản phẩm bán chạy tuần này </h1>
+        <div class="row product_new">
+          <div class="card" style="width: 25%;">
+            <img class="card-img-top" src="./img/index/anh10.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Son kem lỳ Bbia Last Velvet</h5>
+              <p class="card-text">Son kem lỳ Bbia Last Velvet Lip Tint là dòng son lỳ với độ bám dính cực cao, 
+                hút vào môi bạn như nam châm và lên màu rõ ràng chỉ sau một lần thoa.</p>
+              <a href="#" class="btn btn-primary">Mua ngay!!!</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25%;">
+            <img class="card-img-top" src="./img/index/anh12.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Son kem lì Merzy Bite The Beat </h5>
+              <p class="card-text">Son kem lì Dreamy Late Night Mellow Tint trở lại với một "vỏ ngoài" mới mẻ mang đậm cá tính của riêng bạn, 
+                chất son mịn mượt nhẹ tênh</p>
+              <a href="#" class="btn btn-primary">Mua ngay!!!</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25%;">
+            <img class="card-img-top" src="./img/index/anh13.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Son kem lỳ Bbia Velvet Version 3</h5>
+              <p class="card-text">Kết cấu son Bbia Last Velvet Lip Tint là chất son tint kết hợp son kem bền màu,lên màu chuẩn sắc.
+                Thân son bằng nhựa
+              </p>
+              <a href="#" class="btn btn-primary">Mua ngay!!!</a>
+            </div>
+          </div>
+          <div class="card" style="width: 25%;">
+            <img class="card-img-top" src="./img/index/anh3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Son kem lỳ Bbia Last Velvet</h5>
+              <p class="card-text">Son kem lỳ Bbia Last Velvet Lip Tint là dòng son lỳ với độ bám dính cực cao, 
+                hút vào môi bạn như nam châm và lên màu rõ ràng chỉ sau một lần thoa.</p>
+              <a href="#" class="btn btn-primary">Mua ngay!!!</a>
+            </div>
+          </div>
+        </div>
+        <h1> Sản phẩm sắp ra mắt</h1>
+        <div class="row new_pro">
+          <div class="col-md-6">
+            <img src="img/newproduct/newproduct1.jpg" alt="">
+          </div>
+          <div class="col-md-6 content_new">
+            <h3 class="name_newproduct">Sản phẩm sắp ra mắt đến từ nhãn hàng Focallure</h3>
+            <p>Focallure sắp cho ra mắt dòng sản phẩm mới với nhiều sản phẩm ấn tượng
+              .Đây là một bộ sản phẩm đầy đủ cho việc make up trở nên đơn giản hơn. Với những tone màu hot đang được ưa
+              chuộng
+              như đỏ cam, cam đất,....
+            </p>
+            <button class="btn_book">Đặt hàng trước ngay hôm nay!!!</button>
+          </div>
+        </div>
+        <div class="row new_pro">
+          <div class="col-md-6 content_new">
+            <h3 class="name_newproduct">Túi xách con gái làm sao có thể thiếu～Son môi
+              Son khiến nàng trở nên tươi tắn～Biến ngày càng thêm đẹp, nàng càng thêm tươi！</h3>
+            <p>
+              Các màu trong chuẩn bị ra mắt：<br>
+              ▶01 Berry Pink- Hồng Berry:<br>
+              Màu hồng tươi sáng, rạng ngời nữ tính, thích hợp cho mọi lứa tuổi<br>
+              ▶02 Dew orange- Cam Dew：<br>
+              Sắc cam nóng bỏng，thích hợp cho cô nàng năng động<br>
+              ▶03 Classical Red- Đỏ cổ điển：<br>
+              Thích hợp với mọi đối tượng, lại cực tươi tắn<br>
+              ▶04 Nude pink- Hồng nude：<br>
+              Màu sắc nhẹ nhàng，tự nhiên <br>
+              Vì đặc điểm da mỗi người khác nhau, nên hiệu quả sản phẩm sẽ có sự chênh lệch, hoan nghênh các bạn đến cửa
+              hàng dùng thử sản phẩm
+            </p>
+            <button class="btn_book">Đặt hàng trước ngay hôm nay!!!</button>
+
+          </div>
+          <div class="col-md-6">
+            <img src="img/newproduct/newproduct9.jpg">
+          </div>
+        </div>
+        <div class="row new_pro">
+          <div class="col-md-6">
+            <img src="img/newproduct/newproduct2.jpg" alt="">
+          </div>
+          <div class="col-md-4 content_new">
+            <h3 class="name_newproduct">Sản phẩm sắp ra mắt đến từ nhãn hàng Focallure</h3>
+            <p>Focallure sắp cho ra mắt dòng sản phẩm mới với nhiều sản phẩm ấn tượng
+              .Đây là một bộ sản phẩm đầy đủ cho việc make up trở nên đơn giản hơn. Với những tone màu hot đang được ưa
+              chuộng
+              như đỏ cam, cam đất,....
+            </p>
+            <button class="btn_book">Đặt hàng trước ngay hôm nay!!!</button>
+          </div>
+        </div>
+        <div class="row new_pro">
+          <div class="col-md-6 content_new">
+            <h3 class="name_newproduct">Sản phẩm sắp ra mắt đến từ nhãn hàng Focallure</h3>
+            <p>Focallure sắp cho ra mắt dòng sản phẩm mới với nhiều sản phẩm ấn tượng
+              .Đây là một bộ sản phẩm đầy đủ cho việc make up trở nên đơn giản hơn. Với những tone màu hot đang được ưa
+              chuộng
+              như đỏ cam, cam đất,....
+            </p>
+            <button class="btn_book">Đặt hàng trước ngay hôm nay!!!</button>
+
+          </div>
+          <div class="col-md-6">
+            <img src="img/newproduct/newproduct3.jpg">
+          </div>
+        </div>
+      </div>
+      <section class="cart">
+        <div>
+          <i class="fas fa-times"></i>
+          <h2>GIỎ HÀNG</h2>
+        </div>
+        <form action="">
+          <table>
+            <thead>
+              <tr>
+                <th style="font-size: 20px;">Sản Phẩm</th>
+                <th style="font-size: 20px;">Giá</th>
+                <th style="font-size: 20px;">Số Lượng</th>
+                <th style="font-size: 20px;padding-left: 10px;">Chọn</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+          <div style="text-align: right ;" class="tongsotien">
+            <p style="font-weight: bold;font-size: 20px;">Tổng Tiền <span>0đ</span></p>
+          </div>
+        </form>
+
+      </section>
+
+    </main>
+
+    <!-- Phan chan trang -->
+    <footer class="footer">
+      <div class="grid">
+        <div class="grid__row">
+          <div class="footer__company grid_column4">
+            <h6 class="footer__head">Hãy liên hệ với chúng tôi để được hỗ trợ</h6>
+            <ul class="footer__company-list">
+              <li class="footer__company-list-item">Số điện thoại: 089950xxxx</li>
+              <li class="footer__company-list-item">Hotline: 1233444</li>
+              <li class="footer__company-list-item">Email: beautystore123@gmail.com</li>
+            </ul>
+          </div>
+          <div class="footer__login grid_column4">
+            <h6 class="footer__head">Kết nối với chúng tôi qua mạng xã hội</h6>
+            <a href=""><i class=" footer__head-icon fa-brands fa-instagram"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-facebook"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-youtube"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-twitter"></i></a>
+          </div>
+          <div class="footer__position grid_column4">
+            <h6 class="footer__head">Hệ thống cửa hàng trên toàn quốc</h6>
+            <ul class="footer__position-list">
+              <li class="footer__position-list-item">1613 P. Tân Tạo A, Q. Bình Tân TP HCM</li>
+              <li class="footer__position-list-item">30/4 Xuân Khánh Ninh Kiều Cần Thơ</li>
+              <li class="footer__position-list-item">74 /14c Phó Cơ Điều Phường 3 Vĩnh Long </li>
+              <li class="footer__position-list-item">50 Bùi Thị Xuân Phường 2 Đà Lạt Lâm Đồng</li>
+            </ul>
+          </div>
+          <div class="footer__pay grid_column4">
+            <h6 class="footer__head">Phương thức thanh toán</h6>
+            <a href=""><i class=" footer__head-icon fa-brands fa-cc-visa"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-cc-paypal"></i></a>
+            <a href=""><i class=" footer__head-icon fa-sharp fa-solid fa-credit-card"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-cc-amazon-pay"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>Địa chỉ văn phòng: 3/2 Xuân Khánh Ninh Kiều Cần Thơ
+          Beauty Store nhận đặt hàng trực tuyến, giao hàng tận nơi và hỗ trợ mua,
+          nhận hàng trực tiếp tại các chuỗi cửa hàng.
+        </p>
+        <p>&copy 2022 Bản quyền thuộc về | Nguyễn Duy Anh B2012058 | Chương Hoàng Lâm B2004732 | Nguyễn Thị Cẩm Tiên
+          B2004757</p>
+      </div>
+    </footer>
+  </article>
+<script src="main.js"></script>
+</body>
+
+</html>

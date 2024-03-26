@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty store</title>
+  <!-- link online -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- link offline -->
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./font_icon/css_icon/all.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Roboto:wght@100;300;400;500&display=swap">
+  <title>Đăng nhập</title>
+</head>
+
+<body class="body">
+  <article class="main">
+    <!-- phan dau trang -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="img/chung/logo1.png" alt="" class="header__logo-img"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <a class="nav-link" href="./index.html">Trang Chủ</a>
+
+            <a class="nav-link" href="./newproduct.html">Sản Phẩm Mới</a>
+
+
+            <a class="nav-link" href="./login.html">Đăng Nhập</a>
+
+
+            <a class="nav-link" href="./sign.html">Đăng Ký</a>
+
+
+          </div>
+        </div>
+        <div class="container-fluid tk">
+          <form class="d-flex header__search" role="search">
+            <input class="form-control me-2 ax" type="search" placeholder="Nhập vào để tìm kiếm sản phẩm"
+              aria-label="Search">
+            <div class="header__search-btn">
+              <button class="btn header__search-btn" type="submit">
+                <a href="#" class="">
+                  <i class="fa-sharp fa-solid fa-magnifying-glass icon_search"></i>
+                </a>
+              </button>
+            </div>
+            <a class="ghang"> <i class="fa-solid fa-cart-shopping header__card-icon"></i></a>
+          </form>
+
+        </div>
+
+      </nav>
+    </header>
+    <!-- phan noi dung chinh -->
+    <div class="container">
+      <div class="grid__full-width">
+        <form onsubmit= "return loginValidation(this)" action="" class="form-sign">
+          <h1 class="form__header">ĐĂNG NHẬP</h1>
+          <div class="form__body">
+            <div class="form__body-input">
+              <i class="fa-solid fa-user form__body-input-icon"></i>
+              <input class="input_dn" name="username" type="text" placeholder="Tên đăng nhập">
+            </div>
+
+            <div class="form__body-input">
+              <i class="fa-solid fa-lock form__body-input-icon"></i>
+              <input class="input_dn" name="password" type="password" placeholder="Nhập password">
+            </div>
+
+          </div>
+
+          <div class="form__footer-btn">
+            <button class="btn-th"><a class="th" href="./index.html">THOÁT</a></button>
+            <button class="btn-dk">ĐĂNG NHẬP</button>
+          </div> 
+        </form>
+      </div>
+    </div>
+    <section class="cart">
+      <div >
+        <i class="fas fa-times"></i>
+        <h2>GIỎ HÀNG</h2>
+      </div>
+      <form action="">
+        <table>
+          <thead>
+            <tr>
+              <th style="font-size: 20px;">Sản Phẩm</th>
+              <th style="font-size: 20px;" >Giá</th>
+              <th style="font-size: 20px;">Số Lượng</th>
+              <th style="font-size: 20px;padding-left: 10px;">Chọn</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+          </tbody>
+        </table>
+        <div style="text-align: right ;" class="tongsotien">
+          <p style="font-weight: bold;font-size: 20px;">Tổng Tiền <span>0đ</span></p>
+        </div>
+      </form>
+
+    </section>
+
+    <!-- Phan chan trang -->
+    <footer class="footer">
+      <div class="grid">
+        <div class="grid__row">
+          <div class="footer__company grid_column4">
+            <h6 class="footer__head">Hãy liên hệ với chúng tôi để được hỗ trợ</h6>
+            <ul class="footer__company-list">
+              <li class="footer__company-list-item">Số điện thoại: 089950xxxx</li>
+              <li class="footer__company-list-item">Hotline: 1233444</li>
+              <li class="footer__company-list-item">Email: beautystore123@gmail.com</li>
+            </ul>
+          </div>
+          <div class="footer__login grid_column4">
+            <h6 class="footer__head">Kết nối với chúng tôi qua mạng xã hội</h6>
+            <a href=""><i class=" footer__head-icon fa-brands fa-instagram"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-facebook"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-youtube"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-twitter"></i></a>
+          </div>
+          <div class="footer__position grid_column4">
+            <h6 class="footer__head">Hệ thống cửa hàng trên toàn quốc</h6>
+            <ul class="footer__position-list">
+              <li class="footer__position-list-item">1613 P. Tân Tạo A, Q. Bình Tân TP HCM</li>
+              <li class="footer__position-list-item">30/4 Xuân Khánh Ninh Kiều Cần Thơ</li>
+              <li class="footer__position-list-item">74 /14c Phó Cơ Điều Phường 3 Vĩnh Long </li>
+              <li class="footer__position-list-item">50 Bùi Thị Xuân Phường 2 Đà Lạt Lâm Đồng</li>
+            </ul>
+          </div>
+          <div class="footer__pay grid_column4">
+            <h6 class="footer__head">Phương thức thanh toán</h6>
+            <a href=""><i class=" footer__head-icon fa-brands fa-cc-visa"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-cc-paypal"></i></a>
+            <a href=""><i class=" footer__head-icon fa-sharp fa-solid fa-credit-card"></i></a>
+            <a href=""><i class=" footer__head-icon fa-brands fa-cc-amazon-pay"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>Địa chỉ văn phòng: 3/2 Xuân Khánh Ninh Kiều Cần Thơ
+          Beauty Store nhận đặt hàng trực tuyến, giao hàng tận nơi và hỗ trợ mua,
+          nhận hàng trực tiếp tại các chuỗi cửa hàng.
+        </p>
+        <p>&copy 2022 Bản quyền thuộc về | Nguyễn Duy Anh B2012058 | Chương Hoàng Lâm B2004732 | Nguyễn Thị Cẩm Tiên
+          B2004757</p>
+      </div>
+    </footer>
+  </article>
+  <script src="main.js"></script>
+</body>
+
+</html>
